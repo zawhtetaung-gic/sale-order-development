@@ -1,0 +1,25 @@
+/* Order_form.css */
+
+/* Custom styles for datepicker input */
+.custom-datepicker {
+  height: 42px;
+  font-size: 1rem;
+  width: 390px;
+}
+
+/* Fix z-index for calendar popup */
+.react-datepicker-popper {
+  z-index: 9999;
+}
+
+.order-confirm, .order-cancel {
+    cursor: pointer;
+}
+
+.order-confirm:hover {
+    background-color: rgb(14, 115, 204);
+}
+
+.order-cancel:hover {
+    background-color: rgb(178, 7, 7);
+}
